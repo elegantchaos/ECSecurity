@@ -7,26 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2260A2EA15DFD7290057C9DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3BB14F52E93009142F7 /* Cocoa.framework */; };
+		224CA8FA179300A1007369FA /* ECSecurityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224CA8F9179300A1007369FA /* ECSecurityTests.m */; };
+		224CA8FB179300A1007369FA /* ECSecurityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224CA8F9179300A1007369FA /* ECSecurityTests.m */; };
+		224CA90017930120007369FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CA8FE17930120007369FA /* Foundation.framework */; };
+		224CA90317930130007369FA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CA90217930130007369FA /* Security.framework */; };
+		224CA90517930145007369FA /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CA90417930145007369FA /* ECUnitTests.framework */; };
+		224CA90717930158007369FA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CA90617930158007369FA /* SenTestingKit.framework */; };
+		224CA9081793017B007369FA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CA90617930158007369FA /* SenTestingKit.framework */; };
+		224CA90917930182007369FA /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CA90417930145007369FA /* ECUnitTests.framework */; };
+		224CA90B179301F3007369FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CA90A179301F3007369FA /* Foundation.framework */; };
+		224CA90C1793021A007369FA /* ECSecurity.framework in Resources */ = {isa = PBXBuildFile; fileRef = 2260A2FD15DFD7320057C9DA /* ECSecurity.framework */; };
 		2260A37815DFDB830057C9DA /* ECKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 22AE91EE14926289008EF8E2 /* ECKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2260A37915DFDB830057C9DA /* ECKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AE91EF1492628A008EF8E2 /* ECKeychain.m */; };
-		2260A39B15DFE2DD0057C9DA /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2260A39815DFE2DD0057C9DA /* ECLogging.framework */; };
-		2260A39C15DFE2DD0057C9DA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2260A39915DFE2DD0057C9DA /* Security.framework */; };
-		2260A39E15DFE2F00057C9DA /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2260A39D15DFE2F00057C9DA /* IOKit.framework */; };
 		2260A3A015DFE6860057C9DA /* ECSecurity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2260A2E915DFD7290057C9DA /* ECSecurity.framework */; };
-		2260A3A215DFE6860057C9DA /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2260A39815DFE2DD0057C9DA /* ECLogging.framework */; };
 		2260A3A615DFE7B30057C9DA /* ECSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 2260A3A515DFE7B20057C9DA /* ECSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2260A3A715DFE7B30057C9DA /* ECSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 2260A3A515DFE7B20057C9DA /* ECSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2260A3AA15DFEE0C0057C9DA /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2260A39815DFE2DD0057C9DA /* ECLogging.framework */; };
-		2260A3B515DFF1920057C9DA /* ECSecurity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2260A2E915DFD7290057C9DA /* ECSecurity.framework */; };
-		2283A3F614F52EC0009142F7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3CD14F52E93009142F7 /* SenTestingKit.framework */; };
-		2283A3F714F52EC0009142F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3BB14F52E93009142F7 /* Cocoa.framework */; };
-		22C2DB5614FB98CB005D2E89 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C2DB5514FB98CB005D2E89 /* IOKit.framework */; };
-		22C2DB5714FB98D7005D2E89 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C2DB5114FB98AA005D2E89 /* Security.framework */; };
 		22C2DB5E14FB9ADC005D2E89 /* Test.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22C2DB5D14FB9ADC005D2E89 /* Test.bundle */; };
-		22C2DB7214FB9CC8005D2E89 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3CD14F52E93009142F7 /* SenTestingKit.framework */; };
-		22C2DB7414FB9CC8005D2E89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C2DB7314FB9CC8005D2E89 /* UIKit.framework */; };
-		22C2DB7514FB9CC8005D2E89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C2DB6414FB9CC8005D2E89 /* Foundation.framework */; };
 		22C2DBDB14FB9FD8005D2E89 /* Test.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22C2DB5D14FB9ADC005D2E89 /* Test.bundle */; };
 /* End PBXBuildFile section */
 
@@ -48,23 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		221662E914FB9315009B975D /* ECSecurityTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ECSecurityTests.plist; path = Resources/Tests/ECSecurityTests.plist; sourceTree = SOURCE_ROOT; };
-		2229674F1354EDC5005F42E7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		223CBAE61205C6380008A641 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		22552BC7134B9E5300B8894E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		22552BC9134B9E5300B8894E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		22552BCB134B9E5300B8894E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		22552BE6134BA0C900B8894E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		22552C12134BA18A00B8894E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		22602234141F8A160044644C /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
-		22602236141F8A230044644C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
-		22602238141F8A460044644C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		2260223A141F8A4E0044644C /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = SDKs/MacOSX10.7.sdk/usr/lib/libcrypto.dylib; sourceTree = DEVELOPER_DIR; };
+		224CA8F9179300A1007369FA /* ECSecurityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSecurityTests.m; sourceTree = "<group>"; };
+		224CA8FE17930120007369FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		224CA8FF17930120007369FA /* SecurityFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityFoundation.framework; path = System/Library/Frameworks/SecurityFoundation.framework; sourceTree = SDKROOT; };
+		224CA90217930130007369FA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		224CA90417930145007369FA /* ECUnitTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ECUnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224CA90617930158007369FA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		224CA90A179301F3007369FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		2260A2E915DFD7290057C9DA /* ECSecurity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2260A2FD15DFD7320057C9DA /* ECSecurity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2260A2FE15DFD7320057C9DA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		2260A30C15DFD96D0057C9DA /* IOSDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSDebug.xcconfig; sourceTree = "<group>"; };
 		2260A30D15DFD96D0057C9DA /* IOSRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSRelease.xcconfig; sourceTree = "<group>"; };
 		2260A30E15DFD96D0057C9DA /* IOSUnitTestDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSUnitTestDebug.xcconfig; sourceTree = "<group>"; };
@@ -74,41 +63,17 @@
 		2260A31215DFD96D0057C9DA /* MacUnitTestDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacUnitTestDebug.xcconfig; sourceTree = "<group>"; };
 		2260A31315DFD96D0057C9DA /* MacUnitTestRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacUnitTestRelease.xcconfig; sourceTree = "<group>"; };
 		2260A39615DFDC600057C9DA /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
-		2260A39815DFE2DD0057C9DA /* ECLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECLogging.framework; path = "/Caches/DerivedData/ECCore-hiysxjmtcntpjqfceiihpzpvphke/Build/Products/Debug/ECLogging.framework"; sourceTree = "<absolute>"; };
-		2260A39915DFE2DD0057C9DA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		2260A39D15DFE2F00057C9DA /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
-		2260A3A315DFE6860057C9DA /* ECUnitTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECUnitTests.framework; path = "/Caches/DerivedData/ECCore-hiysxjmtcntpjqfceiihpzpvphke/Build/Products/Debug/ECUnitTests.framework"; sourceTree = "<absolute>"; };
 		2260A3A515DFE7B20057C9DA /* ECSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSecurity.h; sourceTree = "<group>"; };
 		2260A3AC15DFEF4F0057C9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
 		226C205C14FBCB8F00D2751B /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scripts; sourceTree = "<group>"; };
 		22728A66124A240500A9881F /* ECSecurityDebug.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSecurityDebug.pch; sourceTree = "<group>"; };
 		22728A67124A240500A9881F /* ECSecurityRelease.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSecurityRelease.pch; sourceTree = "<group>"; };
 		22728A68124A240500A9881F /* ECSecurityShared.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSecurityShared.pch; sourceTree = "<group>"; };
-		227333B811EBBA3000695FB4 /* GHUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnit.framework; path = Library/Frameworks/GHUnit.framework; sourceTree = SDKROOT; };
-		2283A3BB14F52E93009142F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		2283A3BE14F52E93009142F7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		2283A3BF14F52E93009142F7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		2283A3C014F52E93009142F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2283A3CD14F52E93009142F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2283A3F514F52EC0009142F7 /* ECSecurityMacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECSecurityMacTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AE91EE14926289008EF8E2 /* ECKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECKeychain.h; sourceTree = "<group>"; };
 		22AE91EF1492628A008EF8E2 /* ECKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECKeychain.m; sourceTree = "<group>"; };
-		22BE50B8149662D0007CC214 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		22BE51331496BD00007CC214 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
-		22BE51351496BD25007CC214 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		22C2DB5114FB98AA005D2E89 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		22C2DB5314FB98B5005D2E89 /* SecurityFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityFoundation.framework; path = System/Library/Frameworks/SecurityFoundation.framework; sourceTree = SDKROOT; };
-		22C2DB5514FB98CB005D2E89 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		22C2DB5D14FB9ADC005D2E89 /* Test.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Test.bundle; path = ../ECLogging/Resources/Test.bundle; sourceTree = SOURCE_ROOT; };
-		22C2DB6414FB9CC8005D2E89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22C2DB7114FB9CC8005D2E89 /* ECSecurityIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECSecurityIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22C2DB7314FB9CC8005D2E89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		22C2DBC014FB9EE1005D2E89 /* libECLoggingIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libECLoggingIOS.a; path = "../ECLogging/build/Release-iphoneos/libECLoggingIOS.a"; sourceTree = "<group>"; };
-		22C2DBC114FB9EE1005D2E89 /* libECUnitTestsIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libECUnitTestsIOS.a; path = "../ECUnitTests/build/Release-iphoneos/libECUnitTestsIOS.a"; sourceTree = "<group>"; };
-		22D55C4D14FB8D640052EA01 /* libECLoggingMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libECLoggingMac.a; path = ../ECLogging/build/Release/libECLoggingMac.a; sourceTree = "<group>"; };
-		22D55C4E14FB8D640052EA01 /* libECUnitTestsMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libECUnitTestsMac.a; path = ../ECUnitTests/build/Release/libECUnitTestsMac.a; sourceTree = "<group>"; };
-		22EC40A61358A0D1005C1F1A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		22FAC46C132149E900103630 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2260A39E15DFE2F00057C9DA /* IOKit.framework in Frameworks */,
-				2260A39B15DFE2DD0057C9DA /* ECLogging.framework in Frameworks */,
-				2260A39C15DFE2DD0057C9DA /* Security.framework in Frameworks */,
-				2260A2EA15DFD7290057C9DA /* Cocoa.framework in Frameworks */,
+				224CA90317930130007369FA /* Security.framework in Frameworks */,
+				224CA90017930120007369FA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,12 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224CA90717930158007369FA /* SenTestingKit.framework in Frameworks */,
+				224CA90517930145007369FA /* ECUnitTests.framework in Frameworks */,
 				2260A3A015DFE6860057C9DA /* ECSecurity.framework in Frameworks */,
-				2260A3A215DFE6860057C9DA /* ECLogging.framework in Frameworks */,
-				22C2DB5714FB98D7005D2E89 /* Security.framework in Frameworks */,
-				22C2DB5614FB98CB005D2E89 /* IOKit.framework in Frameworks */,
-				2283A3F614F52EC0009142F7 /* SenTestingKit.framework in Frameworks */,
-				2283A3F714F52EC0009142F7 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,11 +107,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2260A3B515DFF1920057C9DA /* ECSecurity.framework in Frameworks */,
-				2260A3AA15DFEE0C0057C9DA /* ECLogging.framework in Frameworks */,
-				22C2DB7214FB9CC8005D2E89 /* SenTestingKit.framework in Frameworks */,
-				22C2DB7414FB9CC8005D2E89 /* UIKit.framework in Frameworks */,
-				22C2DB7514FB9CC8005D2E89 /* Foundation.framework in Frameworks */,
+				224CA90B179301F3007369FA /* Foundation.framework in Frameworks */,
+				224CA90917930182007369FA /* ECUnitTests.framework in Frameworks */,
+				224CA9081793017B007369FA /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,26 +143,12 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2260A3A315DFE6860057C9DA /* ECUnitTests.framework */,
-				2260A39D15DFE2F00057C9DA /* IOKit.framework */,
-				2260A39815DFE2DD0057C9DA /* ECLogging.framework */,
-				2260A39915DFE2DD0057C9DA /* Security.framework */,
-				22C2DBC014FB9EE1005D2E89 /* libECLoggingIOS.a */,
-				22C2DBC114FB9EE1005D2E89 /* libECUnitTestsIOS.a */,
-				22C2DB5514FB98CB005D2E89 /* IOKit.framework */,
-				22C2DB5314FB98B5005D2E89 /* SecurityFoundation.framework */,
-				22C2DB5114FB98AA005D2E89 /* Security.framework */,
-				22D55C4D14FB8D640052EA01 /* libECLoggingMac.a */,
-				22D55C4E14FB8D640052EA01 /* libECUnitTestsMac.a */,
-				223CBAE11205C5930008A641 /* iOS */,
-				1058C7B0FEA5585E11CA2CBB /* MacOS */,
-				1058C7B2FEA5585E11CA2CBB /* Testing */,
-				2283A3BB14F52E93009142F7 /* Cocoa.framework */,
-				2283A3CD14F52E93009142F7 /* SenTestingKit.framework */,
-				22C2DB6414FB9CC8005D2E89 /* Foundation.framework */,
-				22C2DB7314FB9CC8005D2E89 /* UIKit.framework */,
-				2260A2FE15DFD7320057C9DA /* CoreFoundation.framework */,
-				2283A3BD14F52E93009142F7 /* Other Frameworks */,
+				224CA90A179301F3007369FA /* Foundation.framework */,
+				224CA90617930158007369FA /* SenTestingKit.framework */,
+				224CA90417930145007369FA /* ECUnitTests.framework */,
+				224CA90217930130007369FA /* Security.framework */,
+				224CA8FE17930120007369FA /* Foundation.framework */,
+				224CA8FF17930120007369FA /* SecurityFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -216,38 +160,6 @@
 				223CBAFB1205C7680008A641 /* tests */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		1058C7B0FEA5585E11CA2CBB /* MacOS */ = {
-			isa = PBXGroup;
-			children = (
-				2260223A141F8A4E0044644C /* libcrypto.dylib */,
-				22602238141F8A460044644C /* Security.framework */,
-				22602236141F8A230044644C /* IOKit.framework */,
-				22602234141F8A160044644C /* Carbon.framework */,
-				2229674F1354EDC5005F42E7 /* CoreFoundation.framework */,
-				22EC40A61358A0D1005C1F1A /* SystemConfiguration.framework */,
-				22552C12134BA18A00B8894E /* CoreLocation.framework */,
-				22FAC46C132149E900103630 /* CoreLocation.framework */,
-				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
-				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
-			);
-			name = MacOS;
-			sourceTree = "<group>";
-		};
-		1058C7B2FEA5585E11CA2CBB /* Testing */ = {
-			isa = PBXGroup;
-			children = (
-				227333B811EBBA3000695FB4 /* GHUnit.framework */,
-			);
-			name = Testing;
-			sourceTree = "<group>";
-		};
-		2206F97A14924D6200AAC9B0 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tests;
 			sourceTree = "<group>";
 		};
 		2210B5D41152E630006C6CCA /* Configuration */ = {
@@ -266,21 +178,6 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		223CBAE11205C5930008A641 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				22BE51351496BD25007CC214 /* QuartzCore.framework */,
-				22BE51331496BD00007CC214 /* CoreData.framework */,
-				22BE50B8149662D0007CC214 /* CoreText.framework */,
-				22552BC7134B9E5300B8894E /* UIKit.framework */,
-				22552BC9134B9E5300B8894E /* Foundation.framework */,
-				22552BCB134B9E5300B8894E /* CoreGraphics.framework */,
-				22552BE6134BA0C900B8894E /* CoreLocation.framework */,
-				223CBAE61205C6380008A641 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		223CBAFB1205C7680008A641 /* tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,14 +188,22 @@
 			path = resources/tests;
 			sourceTree = "<group>";
 		};
+		224CA8F8179300A1007369FA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				224CA8F9179300A1007369FA /* ECSecurityTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		2260A30B15DFD8FB0057C9DA /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				2210B5D41152E630006C6CCA /* Configuration */,
 				22CA555E13DA09FF007E89E2 /* Generic */,
-				22CA557813DA09FF007E89E2 /* iOS */,
 				22CA557F13DA09FF007E89E2 /* Mac */,
 				22728A64124A240500A9881F /* Prefix */,
+				224CA8F8179300A1007369FA /* Tests */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -313,45 +218,12 @@
 			path = Prefix;
 			sourceTree = "<group>";
 		};
-		2283A3BD14F52E93009142F7 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2283A3BE14F52E93009142F7 /* AppKit.framework */,
-				2283A3BF14F52E93009142F7 /* CoreData.framework */,
-				2283A3C014F52E93009142F7 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		22AE91D714925F24008EF8E2 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
 		22CA555E13DA09FF007E89E2 /* Generic */ = {
 			isa = PBXGroup;
 			children = (
 				2260A3A515DFE7B20057C9DA /* ECSecurity.h */,
-				22CA557113DA09FF007E89E2 /* Tests */,
 			);
 			path = Generic;
-			sourceTree = "<group>";
-		};
-		22CA557113DA09FF007E89E2 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		22CA557813DA09FF007E89E2 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				2206F97A14924D6200AAC9B0 /* Tests */,
-			);
-			path = iOS;
 			sourceTree = "<group>";
 		};
 		22CA557F13DA09FF007E89E2 /* Mac */ = {
@@ -359,7 +231,6 @@
 			children = (
 				22AE91EE14926289008EF8E2 /* ECKeychain.h */,
 				22AE91EF1492628A008EF8E2 /* ECKeychain.m */,
-				22AE91D714925F24008EF8E2 /* Tests */,
 			);
 			path = Mac;
 			sourceTree = "<group>";
@@ -523,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224CA90C1793021A007369FA /* ECSecurity.framework in Resources */,
 				22C2DBDB14FB9FD8005D2E89 /* Test.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224CA8FA179300A1007369FA /* ECSecurityTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224CA8FB179300A1007369FA /* ECSecurityTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,6 +541,11 @@
 			baseConfigurationReference = 2260A31215DFD96D0057C9DA /* MacUnitTestDebug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../../../../../../../../castor/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -679,6 +558,11 @@
 			baseConfigurationReference = 2260A31315DFD96D0057C9DA /* MacUnitTestRelease.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../../../../../../../../castor/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -690,6 +574,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2260A30E15DFD96D0057C9DA /* IOSUnitTestDebug.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
@@ -701,6 +589,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2260A30F15DFD96D0057C9DA /* IOSUnitTestRelease.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
