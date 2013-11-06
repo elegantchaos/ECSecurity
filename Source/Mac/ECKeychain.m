@@ -68,8 +68,6 @@
 			SecKeychainItemFreeContent(&list, NULL);
 			if(itemRef) CFRelease(itemRef);
 		}
-		
-        [name release];
 	}
 	CFRelease(searchList);
 	CFRelease(searchRef);
