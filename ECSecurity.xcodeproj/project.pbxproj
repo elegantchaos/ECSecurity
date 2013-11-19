@@ -69,11 +69,11 @@
 		22728A66124A240500A9881F /* ECSecurityDebug.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSecurityDebug.pch; sourceTree = "<group>"; };
 		22728A67124A240500A9881F /* ECSecurityRelease.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSecurityRelease.pch; sourceTree = "<group>"; };
 		22728A68124A240500A9881F /* ECSecurityShared.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSecurityShared.pch; sourceTree = "<group>"; };
-		2283A3F514F52EC0009142F7 /* ECSecurityMacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECSecurityMacTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2283A3F514F52EC0009142F7 /* ECSecurityMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECSecurityMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AE91EE14926289008EF8E2 /* ECKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECKeychain.h; sourceTree = "<group>"; };
 		22AE91EF1492628A008EF8E2 /* ECKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECKeychain.m; sourceTree = "<group>"; };
 		22C2DB5D14FB9ADC005D2E89 /* Test.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Test.bundle; path = ../ECLogging/Resources/Test.bundle; sourceTree = SOURCE_ROOT; };
-		22C2DB7114FB9CC8005D2E89 /* ECSecurityIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECSecurityIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C2DB7114FB9CC8005D2E89 /* ECSecurityIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECSecurityIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +119,8 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2283A3F514F52EC0009142F7 /* ECSecurityMacTests.octest */,
-				22C2DB7114FB9CC8005D2E89 /* ECSecurityIOSTests.octest */,
+				2283A3F514F52EC0009142F7 /* ECSecurityMacTests.xctest */,
+				22C2DB7114FB9CC8005D2E89 /* ECSecurityIOSTests.xctest */,
 				2260A2E915DFD7290057C9DA /* ECSecurity.framework */,
 				2260A2FD15DFD7320057C9DA /* ECSecurity.framework */,
 			);
@@ -311,7 +311,7 @@
 			);
 			name = ECSecurityMacTests;
 			productName = libECCoreMacTests;
-			productReference = 2283A3F514F52EC0009142F7 /* ECSecurityMacTests.octest */;
+			productReference = 2283A3F514F52EC0009142F7 /* ECSecurityMacTests.xctest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		22C2DB7014FB9CC8005D2E89 /* ECSecurityIOSTests */ = {
@@ -330,7 +330,7 @@
 			);
 			name = ECSecurityIOSTests;
 			productName = ECCoreIOSTests;
-			productReference = 22C2DB7114FB9CC8005D2E89 /* ECSecurityIOSTests.octest */;
+			productReference = 22C2DB7114FB9CC8005D2E89 /* ECSecurityIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
